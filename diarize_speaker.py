@@ -54,7 +54,7 @@ async def speakerTime(speech_data: Dict):
 
 async def main():
 
-   DEEPGRAM_API_KEY = "3e1e03d5a644d32de205bf201760d1bb42207ef5"
+   DEEPGRAM_API_KEY = "YOUR_API_KEY"
    deepgram = Deepgram(DEEPGRAM_API_KEY)
 
    with open(audio_file, 'rb') as audio: #read in binary mode
